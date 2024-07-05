@@ -1015,11 +1015,12 @@ ul#ss_navOptions {
 #item1-info1>div,
 #item2-info1>div,
 #item3-info1>div {
+  font-family: "Inter",sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 14px;
-  letter-spacing: 0.91px;
+  letter-spacing: 0.53px;
   color: var(--secondary-text-color);
 }
 
@@ -1187,6 +1188,7 @@ ul#ss_navOptions {
   font-size: 36px;
   font-weight: 550;
   letter-spacing: 0.6px;
+  color: var(--primary-color);
   line-height: 45px;
 }
 
@@ -1251,6 +1253,7 @@ ul#ss_navOptions {
   flex-wrap: wrap;
   padding: 10px;
   width: 50%;
+  height: 100%;
 }
 
 #ww_flex_img {
@@ -1266,13 +1269,18 @@ ul#ss_navOptions {
 }
 
 .ww_question>p {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.6px;
   font-size: medium;
   font-weight: 600;
   color: var(--main-color);
 }
 
 #ww_Heading>h2 {
+  font-family: "Inter", sans-serif;
   font-size: 2.5rem;
+  font-size: 30px;
+  letter-spacing: 0.6px;
   font-weight: 600;
   line-height: 1.25em;
   color: var(--site-font-color);
@@ -1280,7 +1288,9 @@ ul#ss_navOptions {
 
 #ww_aboutus>p,
 #ww_info>p {
+  font-family: "Inter", sans-serif;
   color: var(--site-font-color);
+  letter-spacing: 0.6px;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
