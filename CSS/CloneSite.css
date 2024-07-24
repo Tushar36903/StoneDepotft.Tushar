@@ -950,7 +950,7 @@ ul#ss_navOptions {
 .grid-container {
   display: grid;
   margin: 0 auto;
-  column-gap: 5px;
+  /* column-gap: 5px; */
   max-width: 1200px;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -1020,8 +1020,8 @@ ul#ss_navOptions {
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 14px;
-  letter-spacing: 0.53px;
-  color: var(--secondary-text-color);
+  letter-spacing: 0.6px;
+  color: var(--text-color2);
 }
 
 #item1-moreInfo,
@@ -1253,7 +1253,6 @@ ul#ss_navOptions {
   flex-wrap: wrap;
   padding: 10px;
   width: 50%;
-  height: 100%;
 }
 
 #ww_flex_img {
@@ -1271,7 +1270,8 @@ ul#ss_navOptions {
 .ww_question>p {
   font-family: "Inter", sans-serif;
   letter-spacing: 0.6px;
-  font-size: medium;
+  font-size: 15px;
+  line-height: 15px;
   font-weight: 600;
   color: var(--main-color);
 }
@@ -1301,6 +1301,10 @@ ul#ss_navOptions {
 #details,
 #ISP_details {
   width: 100%;
+}
+
+#ww_read_more {
+  display: flex;
 }
 
 #ww_read_more>a {
