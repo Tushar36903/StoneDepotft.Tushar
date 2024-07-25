@@ -327,7 +327,6 @@ ul#navOptions {
 }
 
 #getQuote {
-  font-family: "Inter", Sans-serif;
   font-size: 14px;
   font-weight: 600;
   padding: 13px;
@@ -342,10 +341,6 @@ ul#navOptions {
 
 #getQuote:hover {
   color: var(--text-color1);
-}
-
-#getQuote>span {
-  font-family: "Inter", Sans-serif;
 }
 
 .mM {
@@ -910,7 +905,6 @@ ul#ss_navOptions {
 }
 
 #DoubtHeading>h2 {
-  font-family: "Inter", sans-serif;
   font-size: 2rem;
   font-size: 30px;
   border: 0;
@@ -959,12 +953,11 @@ ul#ss_navOptions {
   text-align: center;
   color: var(--site-font-color);
   line-height: var(--px-size24);
-  font-family: "Inter", sans-serif;
 }
 
 #grid {
   width: 100%;
-  padding: 30px 0;
+  padding: 20px 0 30px;
   position: relative;
   background-color: var(--bg-color);
 }
@@ -1020,9 +1013,8 @@ ul#ss_navOptions {
 #item1-info1>h3,
 #item2-info1>h3,
 #item3-info1>h3 {
-  font-family: "Inter", sans-serif;
   font-size: var(--px-size24);
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.6px;
   line-height: 28.8px;
   margin-bottom: 20px;
@@ -1066,7 +1058,6 @@ ul#ss_navOptions {
 #img3-moreinfo>a {
   display: inline-block;
   padding: 14px 20px;
-  font-family: "Inter", sans-serif;
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0.6px;
@@ -1187,13 +1178,14 @@ ul#ss_navOptions {
 
 #uniqueness>div {
   max-width: 1200px;
+  padding: 10px;
   margin: 0 auto;
-  box-shadow: 29px 29px 60px 0px rgba(0, 0, 0, 0.2);
 }
 
 #flexContent {
   display: flex;
   padding: 30px;
+  box-shadow: 29px 29px 60px 0px rgba(0, 0, 0, 0.2);
 }
 
 #UserReq {
@@ -1205,29 +1197,34 @@ ul#ss_navOptions {
   width: 35%;
 }
 
-#heading>h2 {
+#UserReq>h2 {
   font-family: "Lato", sans-serif;
   font-size: 36px;
-  font-weight: 550;
+  font-weight: 700;
   letter-spacing: 0.6px;
   color: var(--primary-color);
   line-height: 45px;
 }
 
-#heading>h2>span {
+#UserReq>h2>span {
+  font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
   color: var(--main-color);
 }
 
-#heading>h2>span:hover {
+#UserReq>h2>span:hover {
   transition: all 1s ease-in-out;
   color: var(--secondary-color);
 }
 
 #description>p {
+  font-family: "Lato", sans-serif;
   font-size: 15px;
-  margin: 10px 0;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  color: var(--text-color2);
+  margin: 5px 0;
   line-height: var(--px-size24);
 }
 
@@ -1243,10 +1240,10 @@ ul#ss_navOptions {
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
+  letter-spacing: 0.6px;
+  line-height: 15px;
   background-color: var(--main-color);
-  border-style: solid;
-  border-width: 1px;
-  border-color: var(--main-color);
+  border: 1px solid var(--main-color);
   border-radius: 5px;
   box-shadow: 19px 19px 40px 0px rgba(0, 0, 0, 0.1);
 }
@@ -1255,6 +1252,10 @@ ul#ss_navOptions {
   transition: all 0.5s ease-in;
   color: var(--secondary-color);
   background-color: transparent;
+}
+
+#gitButton>a>i {
+  margin-left: 5px;
 }
 
 #why_who {
@@ -1290,16 +1291,14 @@ ul#ss_navOptions {
 }
 
 .ww_question>p {
-  font-family: "Inter", sans-serif;
   letter-spacing: 0.6px;
   font-size: 15px;
   line-height: 15px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--main-color);
 }
 
 #ww_Heading>h2 {
-  font-family: "Inter", sans-serif;
   font-size: 2.5rem;
   font-size: 30px;
   letter-spacing: 0.6px;
@@ -1310,7 +1309,6 @@ ul#ss_navOptions {
 
 #ww_aboutus>p,
 #ww_info>p {
-  font-family: "Inter", sans-serif;
   color: var(--site-font-color);
   letter-spacing: 0.6px;
   font-size: 16px;
@@ -1405,7 +1403,6 @@ ul#ss_navOptions {
 .Client_Numbers>h4 {
   color: var(--tertiary-color);
   font-size: 40px;
-  font-family: "Inter", Sans-serif;
   font-weight: 800;
   line-height: 1.2em;
 }
@@ -1424,7 +1421,6 @@ ul#ss_navOptions {
 .Client_Text>p {
   color: var(--tertiary-color);
   font-size: 20px;
-  font-family: "Inter", Sans-serif;
   font-weight: 600;
 }
 
@@ -2336,7 +2332,6 @@ input[type="submit"]:hover {
 #ISP_f1>h1 {
   font-size: 48px;
   font-weight: 500;
-  font-family: "Inter", Sans-serif;
   color: var(--tertiary-color);
   line-height: 1.4em;
   margin-bottom: 20px;
@@ -2348,7 +2343,6 @@ input[type="submit"]:hover {
 
 #ISP_f1>p {
   color: #fff;
-  font-family: "Inter", Sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -2757,7 +2751,6 @@ input[type="submit"]:hover {
   margin: 10px 0;
   font-size: 18px;
   line-height: var(--px-size24);
-  font-family: "Inter", sans-serif;
 }
 
 #gWeHave {
@@ -2957,7 +2950,6 @@ input[type="submit"]:hover {
   font-style: inherit;
   font-weight: inherit;
   color: #2e2e2e;
-  font-family: "Inter", Sans-serif;
   font-size: 15px;
   letter-spacing: 0.6px;
 }
@@ -4754,7 +4746,7 @@ th {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  #heading>h2 {
+  #UserReq>h2 {
     font-size: var(--px-size24);
   }
 
@@ -4871,12 +4863,12 @@ th {
   }
 
   #DoubtHeading>h2 {
-    font-size: 25px;
+    font-size: 24px;
   }
   
-  #DoubtDescription>p {
+  /* #DoubtDescription>p {
     font-size: 18px;
-  }
+  } */
 
   #newSlider .slide_wrap {
     padding: 10px;
@@ -4894,7 +4886,7 @@ th {
 
 @media screen and (max-width: 700px) {
   .carousel-item {
-    height: 263.453px;
+    height: 204px;
     overflow: hidden;
   }
 
